@@ -39,6 +39,7 @@ public class dd_static {
         	Thread.sleep(2000);
         }
         System.out.println(s.getFirstSelectedOption().getText());
+        System.out.println("test case got passed");
 	}
 
 }
