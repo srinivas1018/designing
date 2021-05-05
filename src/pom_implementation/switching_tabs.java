@@ -35,6 +35,7 @@ public class switching_tabs {
 		System.out.println(eamil);
 		driver.switchTo().window(p_id);
 		driver.findElement(By.cssSelector("input#username")).sendKeys(eamil);
+		System.out.println("test case got passed");
 	}
 
 }
